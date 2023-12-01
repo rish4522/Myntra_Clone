@@ -7,18 +7,19 @@ html, body {
 
 /* Header Start */
 .container {
-    max-width: 100vw;
+    max-width: 100%;
     padding: 25px;
-    flex-shrink: inherit;
+    /* flex-shrink: inherit; */
     position: sticky;
     box-shadow: 0px 5px 5px rgba(136, 134, 134, 0.1);
+    margin-bottom: 40px;
 }
 
 .flex {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1px 30px 20px 30px ;
+    padding: 1px 10px 20px 30px ;
 }
 
 .nav-ul-block {
@@ -74,8 +75,8 @@ nav ul a:visited {
     height: 15px;
     outline: none;
     padding: 11px;
-    position: absolute;
-    left: 49.5%;
+    position: relative;
+    left: 48.5%;
     z-index: 2;
     display: inline-block;
     vertical-align: middle; /* Align the icon vertically in the middle */
@@ -159,3 +160,44 @@ nav input {
         max-width: 200px;
     }
 }
+
+/* Carousel Start */
+.carousel-container .carousel-inner img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+     /* This will make the div take up 90% of the height of the body */
+  }
+
+.carousel {
+margin-bottom: 40px; /* This will leave 50px of space at the bottom of your carousel */
+}
+  
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px; /* Change height to auto to maintain the aspect ratio */
+    object-fit: cover;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px; /* Change this value to move the indicators up or down */
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center; /* This will center the indicators */
+    padding-left: 0;
+    margin-right: 15%; /* Change this value to move the indicators left or right */
+    margin-left: 15%; /* Change this value to move the indicators left or right */
+    list-style: none;
+  }
+  
+/* Carousel End */
+
+
+
+  
+  
