@@ -1,0 +1,168 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Phudu', sans-serif;
+}
+
+/* Header Start */
+.container {
+    width: 100%;
+    padding: 25px 0px 25px 0px;
+
+    position: sticky;
+    box-shadow: 0px 5px 5px rgba(136, 134, 134, 0.1);
+    margin-bottom: 40px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1px 10px 20px 30px ;
+}
+
+.nav-ul-block {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-items {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: small;
+    font-weight: bolder;
+    position: relative;
+    transition: border-bottom 0.5s ease;
+    border-bottom: 10px solid transparent;
+}
+
+/* NAV LINKS START */
+
+nav ul a {
+    text-decoration: none;
+    
+}
+
+
+
+nav ul a:link {
+    color: rgb(89, 87, 87);
+}
+
+nav ul a:hover {
+    border-width: 2px;
+    border-bottom: solid rgb(250, 104, 128);
+    transition: border-bottom 0.1s ease;
+}
+
+nav ul a:visited {
+    color: rgb(89, 87, 87);
+}
+
+/* NAV LINKS END */
+
+#studio {
+    margin-right: 60px;
+}
+
+.nav-search {
+    width: 25px !important; /* Adjust as needed */
+    height: 25px !important; /* Adjust as needed */
+    outline: none !important;
+    padding: 5px !important; /* Adjust as needed */
+    position: relative !important;
+    z-index: 2 !important;
+    display: inline-block !important;
+    left: 70px;
+    vertical-align: middle !important; /* Align the icon vertically in the middle */
+}
+
+.nav-search:focus {
+    outline: none !important;
+}
+
+.bg-custom-color {
+    background-color: #525257 !important;
+}
+
+nav input {
+    border: none !important;
+    /* background-color: #525257 !important; */
+    font-size: 13px !important;
+    padding: 10px 20px 10px 50px !important;
+    outline: none !important;
+    border-radius: 6px !important;
+    font-family: 'Helvetica Neue', sans-serif !important;
+    font-weight: lighter !important;
+    position: relative !important;
+    z-index: 1 !important;
+    display: inline-block !important;
+    vertical-align: middle !important; /* Align the input vertically in the middle */
+    background-color: #808080 !important;
+}
+
+.nav-search-pressed {
+    outline: none !important;
+}
+
+/* HEADER SEARCH START */
+
+.header-search {
+    display: block !important;
+}
+
+
+/* HEADER SEARCH END */
+
+.pressed {
+
+    border-style: solid !important;
+    border-width: 1px !important;
+    border-color: rgb(216, 214, 214) !important;
+    background-color: white !important;
+}
+
+.pressed:focus {
+    outline: none !important;
+    border-color: #d0d0d2 !important; /* Add your desired focus color here */
+    box-shadow: 0 0 0 0.2px #dcdcde !important; /* Add your desired focus color here */
+}
+
+.pro-wish-bag {
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    font-weight: bold;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.pro-wish-bag img {
+    height: 20px;
+    width: 17px;
+    padding-bottom: 5px;
+}
+
+/* Header End */
+
+/* Main Content Start */
+
+.text-banner-container {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 50px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    color: #3e4152;
+}
+
+.gallery-layout {
+    padding: 0px 40px 20px 20px;
+}
+
+/* Main Content End */
